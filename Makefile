@@ -3,7 +3,7 @@ LATEX=pdflatex
 
 all: *.tex
 	@echo "Building the Resume ..."
-	@$(LATEX) -synctex=1 -interaction=nonstopmode Resume.tex >/dev/null
+	@$(LATEX) -synctex=1 -interaction=nonstopmode pi.tex >/dev/null
 	@rm -rf *.log *.aux *.out *.gz
 	@echo "Done! :)"
 
